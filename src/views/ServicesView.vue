@@ -1,10 +1,10 @@
 <script setup>
-  import TheWelcome from '@/components/TheWelcome.vue'
+
 </script>
 
 <template>
   <main>
-    This is the home page
+    This is the services page
   </main>
 </template>
 

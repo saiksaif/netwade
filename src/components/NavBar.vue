@@ -1,12 +1,14 @@
 <script setup>
-
+    import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-    <nav class="fixed w-full flex flex-wrap items-center justify-between p-4 bg-white">
+    <nav class="w-full flex flex-wrap items-center justify-between md:justify-evenly px-4 py-2 glassMorph text-white">
         <div class="w-auto lg:order-2 lg:w-1/5 lg:text-center">
-            <a class="text-xl font-semibold text-gray-800 font-heading" href="#">
-                Charlie Rabiller
+            <a class="text-xl font-semibold font-heading hover:bg-transparent" href="#">
+                NETWADE
+                <br>
+                STUDIOS
             </a>
         </div>
         <div class="block lg:hidden">
@@ -20,27 +22,34 @@
                 </svg>
             </button>
         </div>
-        <div class="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/5">
-            <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+        <div class="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/6">
+            <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/">
                 Home
-            </a>
-            <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
-                Team
-            </a>
-            <a class="block mt-4 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
-                Galery
-            </a>
+            </RouterLink>
+            <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/about">
+                About
+            </RouterLink>
+            <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/services">
+                Services
+            </RouterLink>
+            <RouterLink class="block mt-4 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/projects">
+                Projects
+            </RouterLink>
         </div>
-        <div class="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/5 lg:text-right">
-            <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+        <div class="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/6 lg:text-right">
+            <a class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" href="#">
                 Content
             </a>
-            <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            <a class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" href="#">
                 FAQ
             </a>
-            <a class="block mt-4 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            <a class="block mt-4 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" href="#">
                 Contact
             </a>
         </div>
     </nav>
 </template>
+
+<style>
+
+</style>
