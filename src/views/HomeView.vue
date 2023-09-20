@@ -1,13 +1,14 @@
 <script setup>
   import TheWelcome from '@/components/TheWelcome.vue'
+  import Hero from '../components/Hero.vue';
 </script>
 
 <template>
   <main>
-    This is the home page
+    <Hero msg="Simple Solutions for Complex Problems" />
   </main>
 </template>
 
-<style>
+<style scoped>
 
 </style>

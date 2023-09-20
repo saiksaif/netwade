@@ -2,11 +2,11 @@
   import { RouterLink, RouterView } from 'vue-router'
   // import HelloWorld from './components/HelloWorld.vue'
   import NavBar from './components/NavBar.vue';
-  import BackgroundGradients from '@/components/backgroundGradients.vue';
-  import MobileBackgroundGradients from '@/components/mobileBackgroundGradients.vue';
+  import BackgroundGradients from './components/BackgroundGradients.vue'
+  import MobileBackgroundGradients from './components/mobileBackgroundGradients.vue';
 </script>
 
-<template>
+<template class="parentBody">
   <header>
     <NavBar />
   </header>
@@ -41,7 +41,15 @@ header {
 }
 .body {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: 1;
+  /* padding-top: 14vh; */
+  /* border: 1px solid green; */
+
+  /* overflow-y: auto; */
 }
 
 /* .logo {

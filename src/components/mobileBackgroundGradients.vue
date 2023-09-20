@@ -19,7 +19,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 @keyframes mCont {
     0% {
         transform: rotate(-20deg);
