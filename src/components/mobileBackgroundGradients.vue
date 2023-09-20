@@ -35,7 +35,7 @@
 }
 
 .mcontainer1 {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     position: fixed;
     top: 0;
     left: 0;
@@ -59,7 +59,7 @@
 }
 
 .minnercontainer {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 50vh;
     width: 70vw;
     /* position: absolute;
@@ -71,12 +71,12 @@
     animation: minnerCont 50s linear infinite;
 }
 .mfirstinner {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 150px;
     height: 150px;
 }
 .mlastinner {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 150px;
     height: 150px;
 }
