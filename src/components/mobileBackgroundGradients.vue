@@ -72,13 +72,13 @@
 }
 .mfirstinner {
     /* border: 1px solid green; */
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 .mlastinner {
     /* border: 1px solid red; */
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 
 @keyframes mrotate1 {
@@ -133,7 +133,7 @@
 }
 
 .mgradient1 {
-    --size: 150px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -197,7 +197,7 @@
 }
 
 .mgradient2 {
-    --size: 150px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -263,7 +263,7 @@
 }
 
 .mgradient3 {
-    --size: 150px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -326,7 +326,7 @@
 }
 
 .mgradient4 {
-    --size: 150px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
