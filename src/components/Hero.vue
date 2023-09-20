@@ -31,7 +31,7 @@ defineProps({
 .heroHome {
     /* border: 1px solid pink; */
     height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 100dvh;
     width: 100vw;
 }
 .heroHomeIn {
