@@ -35,7 +35,7 @@
 }
 
 .mcontainer1 {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     position: fixed;
     top: 0;
     left: 0;
@@ -59,7 +59,7 @@
 }
 
 .minnercontainer {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 50vh;
     width: 70vw;
     /* position: absolute;
@@ -71,14 +71,14 @@
     animation: minnerCont 50s linear infinite;
 }
 .mfirstinner {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 200px;
     height: 200px;
     position: absolute;
     top: 0;
 }
 .mlastinner {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 200px;
     height: 200px;
     position: absolute;
@@ -201,7 +201,7 @@
 }
 
 .mgradient2 {
-    --size: 200px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -267,7 +267,7 @@
 }
 
 .mgradient3 {
-    --size: 200px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -330,7 +330,7 @@
 }
 
 .mgradient4 {
-    --size: 200px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -341,7 +341,7 @@
     border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
 }
 
-@media (min-width: 720px) {
+/* @media (min-width: 720px) {
 
     .mgradient1,
     .mgradient2,
@@ -349,7 +349,7 @@
     .mgradient4 {
         --size: 300px;
     }
-}
+} */
 
 body {
     background-color: #222;
