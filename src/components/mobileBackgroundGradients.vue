@@ -35,7 +35,7 @@
 }
 
 .mcontainer1 {
-    /* border: 1px solid pink; */
+    border: 1px solid pink;
     position: fixed;
     top: 0;
     left: 0;
@@ -59,7 +59,7 @@
 }
 
 .minnercontainer {
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
     height: 50vh;
     width: 70vw;
     /* position: absolute;
@@ -71,14 +71,18 @@
     animation: minnerCont 50s linear infinite;
 }
 .mfirstinner {
-    /* border: 1px solid green; */
-    width: 300px;
-    height: 300px;
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
 }
 .mlastinner {
-    /* border: 1px solid red; */
-    width: 300px;
-    height: 300px;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
 }
 
 @keyframes mrotate1 {
@@ -133,7 +137,7 @@
 }
 
 .mgradient1 {
-    --size: 300px;
+    --size: 200px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -197,7 +201,7 @@
 }
 
 .mgradient2 {
-    --size: 300px;
+    --size: 200px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -263,7 +267,7 @@
 }
 
 .mgradient3 {
-    --size: 300px;
+    --size: 200px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -326,7 +330,7 @@
 }
 
 .mgradient4 {
-    --size: 300px;
+    --size: 200px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
