@@ -5,11 +5,14 @@
 <template>
     <nav class="w-full flex flex-wrap items-center justify-between md:justify-evenly px-4 py-2 glassMorph text-white">
         <div class="w-auto lg:order-2 lg:w-1/5 lg:text-center">
-            <a class="text-xl font-semibold font-heading hover:bg-transparent" href="#">
-                NETWADE
-                <br>
-                STUDIOS
-            </a>
+            <RouterLink class="text-xl font-semibold font-heading hover:bg-transparent flex flex-row justify-center" to="/">
+                <img src="../assets/logo-sm.png" alt="Logo" class="h-14 mr-2">
+                <div>
+                    NETWADE
+                    <br>
+                    STUDIOS
+                </div>
+            </RouterLink>
         </div>
         <div class="block lg:hidden">
             <button class="flex items-center px-3 py-2 text-indigo-500 border border-indigo-500 rounded navbar-burger">
@@ -37,15 +40,12 @@
             </RouterLink>
         </div>
         <div class="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/6 lg:text-right">
-            <a class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" href="#">
-                Content
-            </a>
-            <a class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" href="#">
+            <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/faq">
                 FAQ
-            </a>
-            <a class="block mt-4 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" href="#">
+            </RouterLink>
+            <RouterLink class="block mt-4 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/contact">
                 Contact
-            </a>
+            </RouterLink>
         </div>
     </nav>
 </template>

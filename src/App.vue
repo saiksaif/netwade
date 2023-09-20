@@ -3,6 +3,7 @@
   // import HelloWorld from './components/HelloWorld.vue'
   import NavBar from './components/NavBar.vue';
   import BackgroundGradients from '@/components/backgroundGradients.vue';
+  import MobileBackgroundGradients from '@/components/mobileBackgroundGradients.vue';
 </script>
 
 <template>
@@ -10,8 +11,12 @@
     <NavBar />
   </header>
   
-  <div class="bgAnimation">
+  <div class="bgAnimation hidden md:block">
     <BackgroundGradients />
+  </div>
+
+  <div class="bgAnimation block md:hidden">
+    <MobileBackgroundGradients />
   </div>
 
   <div class="body">
