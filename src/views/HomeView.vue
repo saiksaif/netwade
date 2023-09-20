@@ -1,22 +1,26 @@
 <script setup>
-  import TheWelcome from '@/components/TheWelcome.vue'
   import Hero from '../components/Hero.vue';
-
-  // import windowScrollPosition from '../scripts/scrollposition'
-
-  // let pos = windowScrollPosition("position")
-  // export {
-  // }
-  // console.log(pos)
+  import ScrollPosition from "../components/scrollPosition.vue"; // Adjust the import path as needed  
 </script>
+
 
 <template>
   <main>
     <Hero msg="Simple Solutions for Complex Problems" />
-    <!-- {{ pos }} -->
+
+    <div class="scrollCounter">
+      <ScrollPosition />
+    </div>
   </main>
 </template>
 
 <style scoped>
-
+ .scrollCounter {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+ }
 </style>

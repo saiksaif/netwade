@@ -4,12 +4,12 @@
 
 <template>
     <!-- <nav class="w-full glassMorph text-white"> -->
-    <nav class="w-full text-white">
+    <nav class="w-full ">
         <div class="sizeFixer max-w-screen-2xl flex flex-wrap items-center justify-between lg:justify-evenly px-4 lg:px-16 2xl:px-6 py-2">
             <div class="w-auto lg:order-2 lg:w-1/5 lg:text-center">
-                <RouterLink class="text-xl font-semibold font-heading hover:bg-transparent flex flex-row justify-center" to="/">
+                <RouterLink class="text-xl font-heading hover:bg-transparent flex flex-row justify-center" to="/">
                     <img src="../assets/logo-sm.png" alt="Logo" class="h-14 mr-2">
-                    <div>
+                    <div class=" font-semibold">
                         NETWADE
                         <br>
                         STUDIOS
@@ -28,24 +28,24 @@
                 </button>
             </div>
             <div class="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/6">
-                <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/">
+                <RouterLink class="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" to="/">
                     Home
                 </RouterLink>
-                <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/about">
+                <RouterLink class="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" to="/about">
                     About
                 </RouterLink>
-                <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/services">
+                <RouterLink class="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" to="/services">
                     Services
                 </RouterLink>
-                <RouterLink class="block mt-4 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/projects">
+                <RouterLink class="block mt-4 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" to="/projects">
                     Projects
                 </RouterLink>
             </div>
             <div class="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/6 lg:text-right">
-                <RouterLink class="block mt-4 mr-10 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/faq">
+                <RouterLink class="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" to="/faq">
                     FAQ
                 </RouterLink>
-                <RouterLink class="block mt-4 text-gray-300 lg:inline-block lg:mt-0 hover:text-white hover:bg-transparent" to="/contact">
+                <RouterLink class="block mt-4 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" to="/contact">
                     Contact
                 </RouterLink>
             </div>
