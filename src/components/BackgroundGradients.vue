@@ -9,12 +9,12 @@
         </div>
 
         <div class="innercontainer">
-            <div class="gradient3"></div>
+            <div class="gradient2"></div>
             <div class="gradient4"></div>
         </div>
-
+        
         <div class="lastinner">
-            <div class="gradient2"></div>
+            <div class="gradient3"></div>
         </div>
     </div>
 </template>
@@ -89,8 +89,8 @@
     }
 
     12% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(100deg);
     }
 
@@ -120,8 +120,8 @@
     }
 
     84% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(100deg);
     }
 
@@ -152,8 +152,8 @@
     }
 
     12% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(200deg);
     }
 
@@ -164,8 +164,8 @@
     }
 
     36% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(0deg);
     }
 
@@ -228,8 +228,8 @@
     }
 
     36% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(0deg);
     }
 
@@ -240,8 +240,8 @@
     }
 
     60% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(200deg);
     }
 
@@ -301,8 +301,8 @@
     }
 
     60% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(0deg);
     }
 
@@ -313,8 +313,8 @@
     }
 
     84% {
-        scale: 0.5;
-        opacity: 0;
+        /* scale: 0.5;
+        opacity: 0; */
         transform: rotate(200deg);
     }
 
