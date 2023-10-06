@@ -89,8 +89,8 @@
     }
 
     12% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(100deg);
     }
 
@@ -120,8 +120,8 @@
     }
 
     84% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(100deg);
     }
 
@@ -133,7 +133,7 @@
 }
 
 .gradient1 {
-    --size: 20px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -152,8 +152,8 @@
     }
 
     12% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(200deg);
     }
 
@@ -164,8 +164,8 @@
     }
 
     36% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(0deg);
     }
 
@@ -196,7 +196,7 @@
 }
 
 .gradient2 {
-    --size: 150px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -228,8 +228,8 @@
     }
 
     36% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(0deg);
     }
 
@@ -240,8 +240,8 @@
     }
 
     60% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(200deg);
     }
 
@@ -262,7 +262,7 @@
 }
 
 .gradient3 {
-    --size: 150px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);
@@ -301,8 +301,8 @@
     }
 
     60% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(0deg);
     }
 
@@ -313,8 +313,8 @@
     }
 
     84% {
-        /* scale: 0.5;
-        opacity: 0; */
+        scale: 0.5;
+        opacity: 0;
         transform: rotate(200deg);
     }
 
@@ -325,7 +325,7 @@
 }
 
 .gradient4 {
-    --size: 150px;
+    --size: 300px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
     width: var(--size);

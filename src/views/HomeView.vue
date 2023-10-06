@@ -8,9 +8,9 @@
   <main>
     <Hero msg="Simple Solutions for Complex Problems" />
 
-    <div class="scrollCounter">
+    <!-- <div class="scrollCounter">
       <ScrollPosition />
-    </div>
+    </div> -->
   </main>
 </template>
 
