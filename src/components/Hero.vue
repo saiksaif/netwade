@@ -10,7 +10,7 @@ defineProps({
 <template>
     <div class="heroHome">
         <div class="heroHomeIn flex flex-col justify-center">
-            <h1 class="w-full text-center sm-4/5 md:w-3/6 lg:w-3/6 2xl:w-5/12 md:text-left mt-16 mb-24">{{ msg }}</h1>
+            <h1 class="w-full text-center sm-4/5 md:w-3/6 lg:w-3/6 2xl:w-5/12 md:text-left mt-16 mb-24 hover-this">{{ msg }}</h1>
     
             <p class="w-full text-center sm-4/5 md:w-3/6 lg:w-3/6 2xl:w-5/12 md:text-left flex">
                 <a href="https://vitejs.dev/" target="_blank" rel="noopener" class="fill-current mr-8">
