@@ -1,0 +1,6 @@
+@media (min-width: 1500px) {
+    .sizeFixer {
+        width: 1500px;
+        margin: 0 auto;
+    }
+}

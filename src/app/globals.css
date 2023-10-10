@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-this {
+  transition: all 0.3s ease;
+}
+.cursorApp {
+  pointer-events: none;
+  position: fixed;
+  z-index: 5;
+  background-color: #fff;
+  padding: 0.3rem;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transition: transform 0.3s ease;
+}
+.hover-this:hover ~ .cursorApp {
+  transform:translate(-50%, -50%) scale(8);
+  background-color: red;
+}
+.headerApp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+}
+.bgAnimationApp {
+    position: absolute;
+    z-index: -1;
+}
+.bodyApp {
+  /* border: 1px solid red; */
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  /* background-color: rgba(255, 255, 255, 0.037); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  /* padding-top: 14vh; */
+  /* border: 1px solid green; */
+}

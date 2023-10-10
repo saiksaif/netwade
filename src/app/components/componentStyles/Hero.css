@@ -1,0 +1,41 @@
+.heroHome {
+    /* border: 1px solid pink; */
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+}
+.heroHomeIn {
+    height: 100vh;
+    width: 85vw;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: -10px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* .heroHomeIn h1, .heroHomeIn p { */
+    /* border: 1px solid; */
+/* } */
+
+@media (min-width: 1024px) {
+    .heroHomeIn h1, .heroHomeIn p {
+        text-align: left;
+    }
+}
+/* @media (min-width: 1500px) {
+    .heroHomeIn {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+} */
