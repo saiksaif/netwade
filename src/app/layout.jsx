@@ -5,6 +5,7 @@ import BackgroundGradients from './components/BackgroundGradients'
 import MobileBackgroundGradients from './components/mobileBackgroundGradients';
 import About from './pages/About';
 import Home from './pages/Home';
+import AnimatedCursor from "react-animated-cursor"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,30 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <AnimatedCursor
+          innerSize={0}
+          outerSize={12}
+          color='255, 255, 255'
+          outerAlpha={1}
+          outerStyle={{ mixBlendMode: 'exclusion' }}
+          innerScale={0.7}
+          outerScale={8}
+          clickables={[
+            'a',
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            'label[for]',
+            'select',
+            'textarea',
+            'button',
+            '.link',
+            '.hover-this'
+          ]}
+        />
+
         <header className="headerApp">
           <NavBar />
         </header>

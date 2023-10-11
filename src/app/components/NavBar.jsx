@@ -10,7 +10,7 @@ function NavBar() {
                 <div className="w-auto lg:order-2 lg:w-1/5 lg:text-center">
                     <a className="text-xl font-heading hover:bg-transparent flex flex-row justify-center" href="/">
                         <img src="../assets/logo-sm.png" alt="Logo" className="h-14 mr-2" />
-                        <div className=" font-semibold">
+                        <div className="underlineAppearAnim font-semibold  text-defcolor hover:text-white">
                             NETWADE
                             <br />
                             STUDIOS
@@ -29,24 +29,24 @@ function NavBar() {
                     </button>
                 </div>
                 <div className="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/6">
-                    <a className="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" href="/">
+                    <a className="block mt-4 px-5 text-defcolor hover:text-white lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent border-b-2 border-transparent hover:border-white" href="/">
                         Home
                     </a>
-                    <a className="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" href="/about">
+                    <a className="block mt-4 px-5 text-defcolor hover:text-white lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent border-b-2 border-transparent hover:border-white" href="/about">
                         About
                     </a>
-                    <a className="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" href="/services">
+                    <a className="block mt-4 px-5 text-defcolor hover:text-white lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent border-b-2 border-transparent hover:border-white" href="/services">
                         Services
                     </a>
-                    <a className="block mt-4 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" href="/projects">
+                    <a className="block px-5 text-defcolor hover:text-white lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent border-b-2 border-transparent hover:border-white" href="/projects">
                         Projects
                     </a>
                 </div>
                 <div className="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/6 lg:text-right">
-                    <a className="block mt-4 mr-10 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" href="/faq">
+                    <a className="block mt-4 px-5 text-defcolor hover:text-white lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent border-b-2 border-transparent hover:border-white" href="/faq">
                         FAQ
                     </a>
-                    <a className="block mt-4 lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent" href="/contact">
+                    <a className="block mt-4 px-5 text-defcolor hover:text-white lg:inline-block lg:mt-0 hover:text-yellow-700 dark:hover:text-white hover:bg-transparent border-b-2 border-transparent hover:border-white" href="/contact">
                         Contact
                     </a>
                 </div>
