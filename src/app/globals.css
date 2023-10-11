@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  /* background-color: #181818; */
+  background: rgba(0, 0, 0, 1);
+  /* border: 1px solid red; */
+}
+
 .hover-this {
   transition: all 0.3s ease;
 }
@@ -29,13 +39,13 @@
 .bgAnimationApp {
     position: absolute;
     z-index: -1;
-}
+    background: #000;
+  }
 .bodyApp {
   /* border: 1px solid red; */
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); */
   /* background-color: rgba(255, 255, 255, 0.037); */
   position: absolute;
   top: 0;
@@ -45,4 +55,9 @@
   z-index: 1;
   /* padding-top: 14vh; */
   /* border: 1px solid green; */
+}
+
+
+.text-defcolor {
+  color: rgb(158, 158, 158);
 }
